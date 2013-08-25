@@ -3,6 +3,7 @@ class StaticPagesController < ApplicationController
   end
 
   def help
+  	@file=Dir.glob('*')
   end
 
   def about
