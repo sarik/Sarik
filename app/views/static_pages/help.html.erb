@@ -6,7 +6,7 @@
   <body>
     <h1>Help</h1>
     <h1> <%=Time.now%> </h1>
-    <%= link_to "Back to home page",static_pages_home_path %>
+    <%= link_to "Back to home page",root_path %>
     <ul>
       
       <% @file.each{|v|  %>
@@ -17,7 +17,7 @@
     %>
     </ul>
     <p>
-      Get helpsw on the Ruby on Rails Tutorial at the
+      Get help on the Ruby on Rails Tutorial at the
       <a href="http://railstutorial.org/help">Rails Tutorial help page</a>.
       To get help on this sample app, see the
       <a href="http://railstutorial.org/book">Rails Tutorial book</a>.
