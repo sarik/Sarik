@@ -18,7 +18,7 @@ end
  
   it { should be_valid }
 
-  describe "when name ist not present" do
+  describe "when name is not present" do
     before { @user.name = " " }
     it { should_not be_valid }
   end
