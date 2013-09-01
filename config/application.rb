@@ -24,6 +24,13 @@ module Sarik
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+>>>>>>> 271f5e7e989a220f1be3abd88ad73b736bbe772d
+=======
+    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+>>>>>>> 271f5e7e989a220f1be3abd88ad73b736bbe772d
   end
 end
