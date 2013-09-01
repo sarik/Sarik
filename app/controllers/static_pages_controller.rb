@@ -3,6 +3,10 @@ class StaticPagesController < ApplicationController
   end
 
   def help
+<<<<<<< HEAD
+=======
+  	@file=Dir.glob('*')
+>>>>>>> 271f5e7e989a220f1be3abd88ad73b736bbe772d
   end
 
   def about
