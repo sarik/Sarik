@@ -4,6 +4,11 @@ ruby '1.9.3'
 
 gem 'rails', '4.0.0'
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'bcrypt-ruby', '3.0.1'
+>>>>>>> 271f5e7e989a220f1be3abd88ad73b736bbe772d
 =======
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'bcrypt-ruby', '3.0.1'
